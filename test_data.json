@@ -1,0 +1,2874 @@
+{
+    "copyright" : "Copyright 2022 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
+    "totalItems" : 40,
+    "totalEvents" : 0,
+    "totalGames" : 40,
+    "totalGamesInProgress" : 5,
+    "dates" : [ {
+      "date" : "2022-05-23",
+      "totalItems" : 12,
+      "totalEvents" : 0,
+      "totalGames" : 12,
+      "totalGamesInProgress" : 5,
+      "games" : [ {
+        "gamePk" : 662455,
+        "link" : "/api/v1.1/game/662455/feed/live",
+        "gameType" : "R",
+        "season" : "2022",
+        "gameDate" : "2022-05-23T22:35:00Z",
+        "officialDate" : "2022-05-23",
+        "status" : {
+          "abstractGameState" : "Final",
+          "codedGameState" : "F",
+          "detailedState" : "Final",
+          "statusCode" : "F",
+          "startTimeTBD" : false,
+          "abstractGameCode" : "F"
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 19,
+              "losses" : 22,
+              "pct" : ".463"
+            },
+            "score" : 1,
+            "team" : {
+              "id" : 115,
+              "name" : "Colorado Rockies",
+              "link" : "/api/v1/teams/115"
+            },
+            "isWinner" : false,
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 17,
+              "losses" : 24,
+              "pct" : ".415"
+            },
+            "score" : 2,
+            "team" : {
+              "id" : 134,
+              "name" : "Pittsburgh Pirates",
+              "link" : "/api/v1/teams/134"
+            },
+            "isWinner" : true,
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          }
+        },
+        "venue" : {
+          "id" : 31,
+          "name" : "PNC Park",
+          "link" : "/api/v1/venues/31"
+        },
+        "content" : {
+          "link" : "/api/v1/game/662455/content"
+        },
+        "isTie" : false,
+        "gameNumber" : 1,
+        "publicFacing" : true,
+        "doubleHeader" : "N",
+        "gamedayType" : "P",
+        "tiebreaker" : "N",
+        "calendarEventID" : "14-662455-2022-05-23",
+        "seasonDisplay" : "2022",
+        "dayNight" : "night",
+        "scheduledInnings" : 9,
+        "reverseHomeAwayStatus" : false,
+        "inningBreakLength" : 120,
+        "gamesInSeries" : 3,
+        "seriesGameNumber" : 1,
+        "seriesDescription" : "Regular Season",
+        "recordSource" : "S",
+        "ifNecessary" : "N",
+        "ifNecessaryDescription" : "Normal Game"
+      }, {
+        "gamePk" : 663073,
+        "link" : "/api/v1.1/game/663073/feed/live",
+        "gameType" : "R",
+        "season" : "2022",
+        "gameDate" : "2022-05-23T22:40:00Z",
+        "officialDate" : "2022-05-23",
+        "status" : {
+          "abstractGameState" : "Final",
+          "codedGameState" : "F",
+          "detailedState" : "Final",
+          "statusCode" : "F",
+          "startTimeTBD" : false,
+          "abstractGameCode" : "F"
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 17,
+              "losses" : 24,
+              "pct" : ".415"
+            },
+            "score" : 7,
+            "team" : {
+              "id" : 112,
+              "name" : "Chicago Cubs",
+              "link" : "/api/v1/teams/112"
+            },
+            "isWinner" : true,
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 12,
+              "losses" : 29,
+              "pct" : ".293"
+            },
+            "score" : 4,
+            "team" : {
+              "id" : 113,
+              "name" : "Cincinnati Reds",
+              "link" : "/api/v1/teams/113"
+            },
+            "isWinner" : false,
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          }
+        },
+        "venue" : {
+          "id" : 2602,
+          "name" : "Great American Ball Park",
+          "link" : "/api/v1/venues/2602"
+        },
+        "content" : {
+          "link" : "/api/v1/game/663073/content"
+        },
+        "isTie" : false,
+        "gameNumber" : 1,
+        "publicFacing" : true,
+        "doubleHeader" : "N",
+        "gamedayType" : "P",
+        "tiebreaker" : "N",
+        "calendarEventID" : "14-663073-2022-05-23",
+        "seasonDisplay" : "2022",
+        "dayNight" : "night",
+        "scheduledInnings" : 9,
+        "reverseHomeAwayStatus" : false,
+        "gamesInSeries" : 4,
+        "seriesGameNumber" : 1,
+        "seriesDescription" : "Regular Season",
+        "recordSource" : "S",
+        "ifNecessary" : "N",
+        "ifNecessaryDescription" : "Normal Game"
+      }, {
+        "gamePk" : 662524,
+        "link" : "/api/v1.1/game/662524/feed/live",
+        "gameType" : "R",
+        "season" : "2022",
+        "gameDate" : "2022-05-23T23:05:00Z",
+        "officialDate" : "2022-05-23",
+        "status" : {
+          "abstractGameState" : "Final",
+          "codedGameState" : "F",
+          "detailedState" : "Final",
+          "statusCode" : "F",
+          "startTimeTBD" : false,
+          "abstractGameCode" : "F"
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 28,
+              "losses" : 13,
+              "pct" : ".683"
+            },
+            "score" : 10,
+            "team" : {
+              "id" : 119,
+              "name" : "Los Angeles Dodgers",
+              "link" : "/api/v1/teams/119"
+            },
+            "isWinner" : true,
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 14,
+              "losses" : 29,
+              "pct" : ".326"
+            },
+            "score" : 1,
+            "team" : {
+              "id" : 120,
+              "name" : "Washington Nationals",
+              "link" : "/api/v1/teams/120"
+            },
+            "isWinner" : false,
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          }
+        },
+        "venue" : {
+          "id" : 3309,
+          "name" : "Nationals Park",
+          "link" : "/api/v1/venues/3309"
+        },
+        "content" : {
+          "link" : "/api/v1/game/662524/content"
+        },
+        "isTie" : false,
+        "gameNumber" : 1,
+        "publicFacing" : true,
+        "doubleHeader" : "N",
+        "gamedayType" : "P",
+        "tiebreaker" : "N",
+        "calendarEventID" : "14-662524-2022-05-23",
+        "seasonDisplay" : "2022",
+        "dayNight" : "night",
+        "scheduledInnings" : 9,
+        "reverseHomeAwayStatus" : false,
+        "inningBreakLength" : 145,
+        "gamesInSeries" : 3,
+        "seriesGameNumber" : 1,
+        "seriesDescription" : "Regular Season",
+        "recordSource" : "S",
+        "ifNecessary" : "N",
+        "ifNecessaryDescription" : "Normal Game"
+      }, {
+        "gamePk" : 661287,
+        "link" : "/api/v1.1/game/661287/feed/live",
+        "gameType" : "R",
+        "season" : "2022",
+        "gameDate" : "2022-05-23T23:05:00Z",
+        "officialDate" : "2022-05-23",
+        "status" : {
+          "abstractGameState" : "Final",
+          "codedGameState" : "F",
+          "detailedState" : "Final",
+          "statusCode" : "F",
+          "startTimeTBD" : false,
+          "abstractGameCode" : "F"
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 18,
+              "losses" : 25,
+              "pct" : ".419"
+            },
+            "score" : 6,
+            "team" : {
+              "id" : 110,
+              "name" : "Baltimore Orioles",
+              "link" : "/api/v1/teams/110"
+            },
+            "isWinner" : true,
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 29,
+              "losses" : 13,
+              "pct" : ".690"
+            },
+            "score" : 4,
+            "team" : {
+              "id" : 147,
+              "name" : "New York Yankees",
+              "link" : "/api/v1/teams/147"
+            },
+            "isWinner" : false,
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          }
+        },
+        "venue" : {
+          "id" : 3313,
+          "name" : "Yankee Stadium",
+          "link" : "/api/v1/venues/3313"
+        },
+        "content" : {
+          "link" : "/api/v1/game/661287/content"
+        },
+        "isTie" : false,
+        "gameNumber" : 1,
+        "publicFacing" : true,
+        "doubleHeader" : "N",
+        "gamedayType" : "P",
+        "tiebreaker" : "N",
+        "calendarEventID" : "14-661287-2022-05-23",
+        "seasonDisplay" : "2022",
+        "dayNight" : "night",
+        "scheduledInnings" : 9,
+        "reverseHomeAwayStatus" : false,
+        "inningBreakLength" : 120,
+        "gamesInSeries" : 3,
+        "seriesGameNumber" : 1,
+        "seriesDescription" : "Regular Season",
+        "recordSource" : "S",
+        "ifNecessary" : "N",
+        "ifNecessaryDescription" : "Normal Game"
+      }, {
+        "gamePk" : 661544,
+        "link" : "/api/v1.1/game/661544/feed/live",
+        "gameType" : "R",
+        "season" : "2022",
+        "gameDate" : "2022-05-23T23:20:00Z",
+        "officialDate" : "2022-05-23",
+        "status" : {
+          "abstractGameState" : "Final",
+          "codedGameState" : "O",
+          "detailedState" : "Game Over",
+          "statusCode" : "O",
+          "startTimeTBD" : false,
+          "abstractGameCode" : "F"
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 20,
+              "losses" : 22,
+              "pct" : ".476"
+            },
+            "score" : 7,
+            "team" : {
+              "id" : 143,
+              "name" : "Philadelphia Phillies",
+              "link" : "/api/v1/teams/143"
+            },
+            "isWinner" : true,
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 19,
+              "losses" : 23,
+              "pct" : ".452"
+            },
+            "score" : 3,
+            "team" : {
+              "id" : 144,
+              "name" : "Atlanta Braves",
+              "link" : "/api/v1/teams/144"
+            },
+            "isWinner" : false,
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          }
+        },
+        "venue" : {
+          "id" : 4705,
+          "name" : "Truist Park",
+          "link" : "/api/v1/venues/4705"
+        },
+        "content" : {
+          "link" : "/api/v1/game/661544/content"
+        },
+        "isTie" : false,
+        "gameNumber" : 1,
+        "publicFacing" : true,
+        "doubleHeader" : "N",
+        "gamedayType" : "P",
+        "tiebreaker" : "N",
+        "calendarEventID" : "14-661544-2022-05-23",
+        "seasonDisplay" : "2022",
+        "dayNight" : "night",
+        "scheduledInnings" : 9,
+        "reverseHomeAwayStatus" : false,
+        "inningBreakLength" : 120,
+        "gamesInSeries" : 4,
+        "seriesGameNumber" : 1,
+        "seriesDescription" : "Regular Season",
+        "recordSource" : "S",
+        "ifNecessary" : "N",
+        "ifNecessaryDescription" : "Normal Game"
+      }, {
+        "gamePk" : 661730,
+        "link" : "/api/v1.1/game/661730/feed/live",
+        "gameType" : "R",
+        "season" : "2022",
+        "gameDate" : "2022-05-23T23:40:00Z",
+        "officialDate" : "2022-05-23",
+        "status" : {
+          "abstractGameState" : "Final",
+          "codedGameState" : "F",
+          "detailedState" : "Final",
+          "statusCode" : "F",
+          "startTimeTBD" : false,
+          "abstractGameCode" : "F"
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 14,
+              "losses" : 27,
+              "pct" : ".341"
+            },
+            "score" : 4,
+            "team" : {
+              "id" : 116,
+              "name" : "Detroit Tigers",
+              "link" : "/api/v1/teams/116"
+            },
+            "isWinner" : false,
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 26,
+              "losses" : 16,
+              "pct" : ".619"
+            },
+            "score" : 5,
+            "team" : {
+              "id" : 142,
+              "name" : "Minnesota Twins",
+              "link" : "/api/v1/teams/142"
+            },
+            "isWinner" : true,
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          }
+        },
+        "venue" : {
+          "id" : 3312,
+          "name" : "Target Field",
+          "link" : "/api/v1/venues/3312"
+        },
+        "content" : {
+          "link" : "/api/v1/game/661730/content"
+        },
+        "isTie" : false,
+        "gameNumber" : 1,
+        "publicFacing" : true,
+        "doubleHeader" : "N",
+        "gamedayType" : "P",
+        "tiebreaker" : "N",
+        "calendarEventID" : "14-661730-2022-05-23",
+        "seasonDisplay" : "2022",
+        "dayNight" : "night",
+        "scheduledInnings" : 9,
+        "reverseHomeAwayStatus" : false,
+        "inningBreakLength" : 120,
+        "gamesInSeries" : 3,
+        "seriesGameNumber" : 1,
+        "seriesDescription" : "Regular Season",
+        "recordSource" : "S",
+        "ifNecessary" : "N",
+        "ifNecessaryDescription" : "Normal Game"
+      }, {
+        "gamePk" : 661999,
+        "link" : "/api/v1.1/game/661999/feed/live",
+        "gameType" : "R",
+        "season" : "2022",
+        "gameDate" : "2022-05-23T23:45:00Z",
+        "officialDate" : "2022-05-23",
+        "status" : {
+          "abstractGameState" : "Final",
+          "codedGameState" : "O",
+          "detailedState" : "Game Over",
+          "statusCode" : "O",
+          "startTimeTBD" : false,
+          "abstractGameCode" : "F"
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 22,
+              "losses" : 20,
+              "pct" : ".524"
+            },
+            "score" : 3,
+            "team" : {
+              "id" : 141,
+              "name" : "Toronto Blue Jays",
+              "link" : "/api/v1/teams/141"
+            },
+            "isWinner" : false,
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 24,
+              "losses" : 18,
+              "pct" : ".571"
+            },
+            "score" : 7,
+            "team" : {
+              "id" : 138,
+              "name" : "St. Louis Cardinals",
+              "link" : "/api/v1/teams/138"
+            },
+            "isWinner" : true,
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          }
+        },
+        "venue" : {
+          "id" : 2889,
+          "name" : "Busch Stadium",
+          "link" : "/api/v1/venues/2889"
+        },
+        "content" : {
+          "link" : "/api/v1/game/661999/content"
+        },
+        "isTie" : false,
+        "gameNumber" : 1,
+        "publicFacing" : true,
+        "doubleHeader" : "N",
+        "gamedayType" : "P",
+        "tiebreaker" : "N",
+        "calendarEventID" : "14-661999-2022-05-23",
+        "seasonDisplay" : "2022",
+        "dayNight" : "night",
+        "scheduledInnings" : 9,
+        "reverseHomeAwayStatus" : false,
+        "inningBreakLength" : 120,
+        "gamesInSeries" : 2,
+        "seriesGameNumber" : 1,
+        "seriesDescription" : "Regular Season",
+        "recordSource" : "S",
+        "ifNecessary" : "N",
+        "ifNecessaryDescription" : "Normal Game"
+      }, {
+        "gamePk" : 662858,
+        "link" : "/api/v1.1/game/662858/feed/live",
+        "gameType" : "R",
+        "season" : "2022",
+        "gameDate" : "2022-05-24T00:10:00Z",
+        "officialDate" : "2022-05-23",
+        "status" : {
+          "abstractGameState" : "Live",
+          "codedGameState" : "I",
+          "detailedState" : "In Progress",
+          "statusCode" : "I",
+          "startTimeTBD" : false,
+          "abstractGameCode" : "L"
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 17,
+              "losses" : 20,
+              "pct" : ".459"
+            },
+            "score" : 6,
+            "team" : {
+              "id" : 114,
+              "name" : "Cleveland Guardians",
+              "link" : "/api/v1/teams/114"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 27,
+              "losses" : 15,
+              "pct" : ".643"
+            },
+            "score" : 1,
+            "team" : {
+              "id" : 117,
+              "name" : "Houston Astros",
+              "link" : "/api/v1/teams/117"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          }
+        },
+        "venue" : {
+          "id" : 2392,
+          "name" : "Minute Maid Park",
+          "link" : "/api/v1/venues/2392"
+        },
+        "content" : {
+          "link" : "/api/v1/game/662858/content"
+        },
+        "gameNumber" : 1,
+        "publicFacing" : true,
+        "doubleHeader" : "N",
+        "gamedayType" : "P",
+        "tiebreaker" : "N",
+        "calendarEventID" : "14-662858-2022-05-23",
+        "seasonDisplay" : "2022",
+        "dayNight" : "night",
+        "scheduledInnings" : 9,
+        "reverseHomeAwayStatus" : false,
+        "inningBreakLength" : 120,
+        "gamesInSeries" : 3,
+        "seriesGameNumber" : 1,
+        "seriesDescription" : "Regular Season",
+        "recordSource" : "S",
+        "ifNecessary" : "N",
+        "ifNecessaryDescription" : "Normal Game"
+      }, {
+        "gamePk" : 663340,
+        "link" : "/api/v1.1/game/663340/feed/live",
+        "gameType" : "R",
+        "season" : "2022",
+        "gameDate" : "2022-05-24T01:40:00Z",
+        "officialDate" : "2022-05-23",
+        "status" : {
+          "abstractGameState" : "Live",
+          "codedGameState" : "I",
+          "detailedState" : "In Progress",
+          "statusCode" : "I",
+          "startTimeTBD" : false,
+          "abstractGameCode" : "L"
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 14,
+              "losses" : 26,
+              "pct" : ".350"
+            },
+            "score" : 5,
+            "team" : {
+              "id" : 118,
+              "name" : "Kansas City Royals",
+              "link" : "/api/v1/teams/118"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 21,
+              "losses" : 22,
+              "pct" : ".488"
+            },
+            "score" : 5,
+            "team" : {
+              "id" : 109,
+              "name" : "Arizona Diamondbacks",
+              "link" : "/api/v1/teams/109"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          }
+        },
+        "venue" : {
+          "id" : 15,
+          "name" : "Chase Field",
+          "link" : "/api/v1/venues/15"
+        },
+        "content" : {
+          "link" : "/api/v1/game/663340/content"
+        },
+        "gameNumber" : 1,
+        "publicFacing" : true,
+        "doubleHeader" : "N",
+        "gamedayType" : "P",
+        "tiebreaker" : "N",
+        "calendarEventID" : "14-663340-2022-05-23",
+        "seasonDisplay" : "2022",
+        "dayNight" : "night",
+        "scheduledInnings" : 9,
+        "reverseHomeAwayStatus" : false,
+        "inningBreakLength" : 120,
+        "gamesInSeries" : 2,
+        "seriesGameNumber" : 1,
+        "seriesDescription" : "Regular Season",
+        "recordSource" : "S",
+        "ifNecessary" : "N",
+        "ifNecessaryDescription" : "Normal Game"
+      }, {
+        "gamePk" : 662135,
+        "link" : "/api/v1.1/game/662135/feed/live",
+        "gameType" : "R",
+        "season" : "2022",
+        "gameDate" : "2022-05-24T01:40:00Z",
+        "officialDate" : "2022-05-23",
+        "status" : {
+          "abstractGameState" : "Live",
+          "codedGameState" : "I",
+          "detailedState" : "In Progress",
+          "statusCode" : "I",
+          "startTimeTBD" : false,
+          "abstractGameCode" : "L"
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 17,
+              "losses" : 26,
+              "pct" : ".395"
+            },
+            "score" : 3,
+            "team" : {
+              "id" : 133,
+              "name" : "Oakland Athletics",
+              "link" : "/api/v1/teams/133"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 17,
+              "losses" : 25,
+              "pct" : ".405"
+            },
+            "score" : 5,
+            "team" : {
+              "id" : 136,
+              "name" : "Seattle Mariners",
+              "link" : "/api/v1/teams/136"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          }
+        },
+        "venue" : {
+          "id" : 680,
+          "name" : "T-Mobile Park",
+          "link" : "/api/v1/venues/680"
+        },
+        "content" : {
+          "link" : "/api/v1/game/662135/content"
+        },
+        "gameNumber" : 1,
+        "publicFacing" : true,
+        "doubleHeader" : "N",
+        "gamedayType" : "P",
+        "tiebreaker" : "N",
+        "calendarEventID" : "14-662135-2022-05-23",
+        "seasonDisplay" : "2022",
+        "dayNight" : "night",
+        "scheduledInnings" : 9,
+        "reverseHomeAwayStatus" : false,
+        "inningBreakLength" : 120,
+        "gamesInSeries" : 3,
+        "seriesGameNumber" : 1,
+        "seriesDescription" : "Regular Season",
+        "recordSource" : "S",
+        "ifNecessary" : "N",
+        "ifNecessaryDescription" : "Normal Game"
+      }, {
+        "gamePk" : 662257,
+        "link" : "/api/v1.1/game/662257/feed/live",
+        "gameType" : "R",
+        "season" : "2022",
+        "gameDate" : "2022-05-24T01:40:00Z",
+        "officialDate" : "2022-05-23",
+        "status" : {
+          "abstractGameState" : "Live",
+          "codedGameState" : "I",
+          "detailedState" : "In Progress",
+          "statusCode" : "I",
+          "startTimeTBD" : false,
+          "abstractGameCode" : "L"
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 26,
+              "losses" : 15,
+              "pct" : ".634"
+            },
+            "score" : 2,
+            "team" : {
+              "id" : 158,
+              "name" : "Milwaukee Brewers",
+              "link" : "/api/v1/teams/158"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 15
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 27,
+              "losses" : 14,
+              "pct" : ".659"
+            },
+            "score" : 0,
+            "team" : {
+              "id" : 135,
+              "name" : "San Diego Padres",
+              "link" : "/api/v1/teams/135"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          }
+        },
+        "venue" : {
+          "id" : 2680,
+          "name" : "Petco Park",
+          "link" : "/api/v1/venues/2680"
+        },
+        "content" : {
+          "link" : "/api/v1/game/662257/content"
+        },
+        "gameNumber" : 1,
+        "publicFacing" : true,
+        "doubleHeader" : "N",
+        "gamedayType" : "P",
+        "tiebreaker" : "N",
+        "calendarEventID" : "14-662257-2022-05-23",
+        "seasonDisplay" : "2022",
+        "dayNight" : "night",
+        "scheduledInnings" : 9,
+        "reverseHomeAwayStatus" : false,
+        "inningBreakLength" : 120,
+        "gamesInSeries" : 3,
+        "seriesGameNumber" : 1,
+        "seriesDescription" : "Regular Season",
+        "recordSource" : "S",
+        "ifNecessary" : "N",
+        "ifNecessaryDescription" : "Normal Game"
+      }, {
+        "gamePk" : 662075,
+        "link" : "/api/v1.1/game/662075/feed/live",
+        "gameType" : "R",
+        "season" : "2022",
+        "gameDate" : "2022-05-24T01:45:00Z",
+        "officialDate" : "2022-05-23",
+        "status" : {
+          "abstractGameState" : "Live",
+          "codedGameState" : "I",
+          "detailedState" : "In Progress",
+          "statusCode" : "I",
+          "startTimeTBD" : false,
+          "abstractGameCode" : "L"
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 28,
+              "losses" : 15,
+              "pct" : ".651"
+            },
+            "score" : 5,
+            "team" : {
+              "id" : 121,
+              "name" : "New York Mets",
+              "link" : "/api/v1/teams/121"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 22,
+              "losses" : 18,
+              "pct" : ".550"
+            },
+            "score" : 2,
+            "team" : {
+              "id" : 137,
+              "name" : "San Francisco Giants",
+              "link" : "/api/v1/teams/137"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 15
+          }
+        },
+        "venue" : {
+          "id" : 2395,
+          "name" : "Oracle Park",
+          "link" : "/api/v1/venues/2395"
+        },
+        "content" : {
+          "link" : "/api/v1/game/662075/content"
+        },
+        "gameNumber" : 1,
+        "publicFacing" : true,
+        "doubleHeader" : "N",
+        "gamedayType" : "P",
+        "tiebreaker" : "N",
+        "calendarEventID" : "14-662075-2022-05-23",
+        "seasonDisplay" : "2022",
+        "dayNight" : "night",
+        "scheduledInnings" : 9,
+        "reverseHomeAwayStatus" : false,
+        "inningBreakLength" : 120,
+        "gamesInSeries" : 3,
+        "seriesGameNumber" : 1,
+        "seriesDescription" : "Regular Season",
+        "recordSource" : "S",
+        "ifNecessary" : "N",
+        "ifNecessaryDescription" : "Normal Game"
+      } ],
+      "events" : [ ]
+    }, {
+      "date" : "2022-05-24",
+      "totalItems" : 15,
+      "totalEvents" : 0,
+      "totalGames" : 15,
+      "totalGamesInProgress" : 0,
+      "games" : [ {
+        "gamePk" : 662454,
+        "link" : "/api/v1.1/game/662454/feed/live",
+        "gameType" : "R",
+        "season" : "2022",
+        "gameDate" : "2022-05-24T22:35:00Z",
+        "officialDate" : "2022-05-24",
+        "status" : {
+          "abstractGameState" : "Preview",
+          "codedGameState" : "S",
+          "detailedState" : "Scheduled",
+          "statusCode" : "S",
+          "startTimeTBD" : false,
+          "abstractGameCode" : "P"
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 19,
+              "losses" : 22,
+              "pct" : ".463"
+            },
+            "team" : {
+              "id" : 115,
+              "name" : "Colorado Rockies",
+              "link" : "/api/v1/teams/115"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 17,
+              "losses" : 24,
+              "pct" : ".415"
+            },
+            "team" : {
+              "id" : 134,
+              "name" : "Pittsburgh Pirates",
+              "link" : "/api/v1/teams/134"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          }
+        },
+        "venue" : {
+          "id" : 31,
+          "name" : "PNC Park",
+          "link" : "/api/v1/venues/31"
+        },
+        "content" : {
+          "link" : "/api/v1/game/662454/content"
+        },
+        "gameNumber" : 1,
+        "publicFacing" : true,
+        "doubleHeader" : "N",
+        "gamedayType" : "P",
+        "tiebreaker" : "N",
+        "calendarEventID" : "14-662454-2022-05-24",
+        "seasonDisplay" : "2022",
+        "dayNight" : "night",
+        "scheduledInnings" : 9,
+        "reverseHomeAwayStatus" : false,
+        "inningBreakLength" : 120,
+        "gamesInSeries" : 3,
+        "seriesGameNumber" : 2,
+        "seriesDescription" : "Regular Season",
+        "recordSource" : "S",
+        "ifNecessary" : "N",
+        "ifNecessaryDescription" : "Normal Game"
+      }, {
+        "gamePk" : 663103,
+        "link" : "/api/v1.1/game/663103/feed/live",
+        "gameType" : "R",
+        "season" : "2022",
+        "gameDate" : "2022-05-24T22:40:00Z",
+        "officialDate" : "2022-05-24",
+        "status" : {
+          "abstractGameState" : "Preview",
+          "codedGameState" : "S",
+          "detailedState" : "Scheduled",
+          "statusCode" : "S",
+          "startTimeTBD" : false,
+          "abstractGameCode" : "P"
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 17,
+              "losses" : 24,
+              "pct" : ".415"
+            },
+            "team" : {
+              "id" : 112,
+              "name" : "Chicago Cubs",
+              "link" : "/api/v1/teams/112"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 12,
+              "losses" : 29,
+              "pct" : ".293"
+            },
+            "team" : {
+              "id" : 113,
+              "name" : "Cincinnati Reds",
+              "link" : "/api/v1/teams/113"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          }
+        },
+        "venue" : {
+          "id" : 2602,
+          "name" : "Great American Ball Park",
+          "link" : "/api/v1/venues/2602"
+        },
+        "content" : {
+          "link" : "/api/v1/game/663103/content"
+        },
+        "gameNumber" : 1,
+        "publicFacing" : true,
+        "doubleHeader" : "N",
+        "gamedayType" : "P",
+        "tiebreaker" : "N",
+        "calendarEventID" : "14-663103-2022-05-24",
+        "seasonDisplay" : "2022",
+        "dayNight" : "night",
+        "scheduledInnings" : 9,
+        "reverseHomeAwayStatus" : false,
+        "gamesInSeries" : 4,
+        "seriesGameNumber" : 2,
+        "seriesDescription" : "Regular Season",
+        "recordSource" : "S",
+        "ifNecessary" : "N",
+        "ifNecessaryDescription" : "Normal Game"
+      }, {
+        "gamePk" : 661978,
+        "link" : "/api/v1.1/game/661978/feed/live",
+        "gameType" : "R",
+        "season" : "2022",
+        "gameDate" : "2022-05-24T22:40:00Z",
+        "officialDate" : "2022-05-24",
+        "status" : {
+          "abstractGameState" : "Preview",
+          "codedGameState" : "S",
+          "detailedState" : "Scheduled",
+          "statusCode" : "S",
+          "startTimeTBD" : false,
+          "abstractGameCode" : "P"
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 18,
+              "losses" : 22,
+              "pct" : ".450"
+            },
+            "team" : {
+              "id" : 146,
+              "name" : "Miami Marlins",
+              "link" : "/api/v1/teams/146"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 24,
+              "losses" : 17,
+              "pct" : ".585"
+            },
+            "team" : {
+              "id" : 139,
+              "name" : "Tampa Bay Rays",
+              "link" : "/api/v1/teams/139"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          }
+        },
+        "venue" : {
+          "id" : 12,
+          "name" : "Tropicana Field",
+          "link" : "/api/v1/venues/12"
+        },
+        "content" : {
+          "link" : "/api/v1/game/661978/content"
+        },
+        "gameNumber" : 1,
+        "publicFacing" : true,
+        "doubleHeader" : "N",
+        "gamedayType" : "P",
+        "tiebreaker" : "N",
+        "calendarEventID" : "14-661978-2022-05-24",
+        "seasonDisplay" : "2022",
+        "dayNight" : "night",
+        "scheduledInnings" : 9,
+        "reverseHomeAwayStatus" : false,
+        "inningBreakLength" : 120,
+        "gamesInSeries" : 2,
+        "seriesGameNumber" : 1,
+        "seriesDescription" : "Regular Season",
+        "recordSource" : "S",
+        "ifNecessary" : "N",
+        "ifNecessaryDescription" : "Normal Game"
+      }, {
+        "gamePk" : 662536,
+        "link" : "/api/v1.1/game/662536/feed/live",
+        "gameType" : "R",
+        "season" : "2022",
+        "gameDate" : "2022-05-24T23:05:00Z",
+        "officialDate" : "2022-05-24",
+        "status" : {
+          "abstractGameState" : "Preview",
+          "codedGameState" : "S",
+          "detailedState" : "Scheduled",
+          "statusCode" : "S",
+          "startTimeTBD" : false,
+          "abstractGameCode" : "P"
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 28,
+              "losses" : 13,
+              "pct" : ".683"
+            },
+            "team" : {
+              "id" : 119,
+              "name" : "Los Angeles Dodgers",
+              "link" : "/api/v1/teams/119"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 14,
+              "losses" : 29,
+              "pct" : ".326"
+            },
+            "team" : {
+              "id" : 120,
+              "name" : "Washington Nationals",
+              "link" : "/api/v1/teams/120"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          }
+        },
+        "venue" : {
+          "id" : 3309,
+          "name" : "Nationals Park",
+          "link" : "/api/v1/venues/3309"
+        },
+        "content" : {
+          "link" : "/api/v1/game/662536/content"
+        },
+        "gameNumber" : 1,
+        "publicFacing" : true,
+        "doubleHeader" : "N",
+        "gamedayType" : "P",
+        "tiebreaker" : "N",
+        "calendarEventID" : "14-662536-2022-05-24",
+        "seasonDisplay" : "2022",
+        "dayNight" : "night",
+        "scheduledInnings" : 9,
+        "reverseHomeAwayStatus" : false,
+        "inningBreakLength" : 120,
+        "gamesInSeries" : 3,
+        "seriesGameNumber" : 2,
+        "seriesDescription" : "Regular Season",
+        "recordSource" : "S",
+        "ifNecessary" : "N",
+        "ifNecessaryDescription" : "Normal Game"
+      }, {
+        "gamePk" : 661285,
+        "link" : "/api/v1.1/game/661285/feed/live",
+        "gameType" : "R",
+        "season" : "2022",
+        "gameDate" : "2022-05-24T23:05:00Z",
+        "officialDate" : "2022-05-24",
+        "status" : {
+          "abstractGameState" : "Preview",
+          "codedGameState" : "S",
+          "detailedState" : "Scheduled",
+          "statusCode" : "S",
+          "startTimeTBD" : false,
+          "abstractGameCode" : "P"
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 18,
+              "losses" : 25,
+              "pct" : ".419"
+            },
+            "team" : {
+              "id" : 110,
+              "name" : "Baltimore Orioles",
+              "link" : "/api/v1/teams/110"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 29,
+              "losses" : 13,
+              "pct" : ".690"
+            },
+            "team" : {
+              "id" : 147,
+              "name" : "New York Yankees",
+              "link" : "/api/v1/teams/147"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          }
+        },
+        "venue" : {
+          "id" : 3313,
+          "name" : "Yankee Stadium",
+          "link" : "/api/v1/venues/3313"
+        },
+        "content" : {
+          "link" : "/api/v1/game/661285/content"
+        },
+        "gameNumber" : 1,
+        "publicFacing" : true,
+        "doubleHeader" : "N",
+        "gamedayType" : "P",
+        "tiebreaker" : "N",
+        "calendarEventID" : "14-661285-2022-05-24",
+        "seasonDisplay" : "2022",
+        "dayNight" : "night",
+        "scheduledInnings" : 9,
+        "reverseHomeAwayStatus" : false,
+        "inningBreakLength" : 120,
+        "gamesInSeries" : 3,
+        "seriesGameNumber" : 2,
+        "seriesDescription" : "Regular Season",
+        "recordSource" : "S",
+        "ifNecessary" : "N",
+        "ifNecessaryDescription" : "Normal Game"
+      }, {
+        "gamePk" : 661543,
+        "link" : "/api/v1.1/game/661543/feed/live",
+        "gameType" : "R",
+        "season" : "2022",
+        "gameDate" : "2022-05-24T23:20:00Z",
+        "officialDate" : "2022-05-24",
+        "status" : {
+          "abstractGameState" : "Preview",
+          "codedGameState" : "S",
+          "detailedState" : "Scheduled",
+          "statusCode" : "S",
+          "startTimeTBD" : false,
+          "abstractGameCode" : "P"
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 20,
+              "losses" : 22,
+              "pct" : ".476"
+            },
+            "team" : {
+              "id" : 143,
+              "name" : "Philadelphia Phillies",
+              "link" : "/api/v1/teams/143"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 19,
+              "losses" : 23,
+              "pct" : ".452"
+            },
+            "team" : {
+              "id" : 144,
+              "name" : "Atlanta Braves",
+              "link" : "/api/v1/teams/144"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          }
+        },
+        "venue" : {
+          "id" : 4705,
+          "name" : "Truist Park",
+          "link" : "/api/v1/venues/4705"
+        },
+        "content" : {
+          "link" : "/api/v1/game/661543/content"
+        },
+        "gameNumber" : 1,
+        "publicFacing" : true,
+        "doubleHeader" : "N",
+        "gamedayType" : "P",
+        "tiebreaker" : "N",
+        "calendarEventID" : "14-661543-2022-05-24",
+        "seasonDisplay" : "2022",
+        "dayNight" : "night",
+        "scheduledInnings" : 9,
+        "reverseHomeAwayStatus" : false,
+        "inningBreakLength" : 120,
+        "gamesInSeries" : 4,
+        "seriesGameNumber" : 2,
+        "seriesDescription" : "Regular Season",
+        "recordSource" : "S",
+        "ifNecessary" : "N",
+        "ifNecessaryDescription" : "Normal Game"
+      }, {
+        "gamePk" : 661699,
+        "link" : "/api/v1.1/game/661699/feed/live",
+        "gameType" : "R",
+        "season" : "2022",
+        "gameDate" : "2022-05-24T23:40:00Z",
+        "officialDate" : "2022-05-24",
+        "status" : {
+          "abstractGameState" : "Preview",
+          "codedGameState" : "S",
+          "detailedState" : "Scheduled",
+          "statusCode" : "S",
+          "startTimeTBD" : false,
+          "abstractGameCode" : "P"
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 14,
+              "losses" : 27,
+              "pct" : ".341"
+            },
+            "team" : {
+              "id" : 116,
+              "name" : "Detroit Tigers",
+              "link" : "/api/v1/teams/116"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 26,
+              "losses" : 16,
+              "pct" : ".619"
+            },
+            "team" : {
+              "id" : 142,
+              "name" : "Minnesota Twins",
+              "link" : "/api/v1/teams/142"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          }
+        },
+        "venue" : {
+          "id" : 3312,
+          "name" : "Target Field",
+          "link" : "/api/v1/venues/3312"
+        },
+        "content" : {
+          "link" : "/api/v1/game/661699/content"
+        },
+        "gameNumber" : 1,
+        "publicFacing" : true,
+        "doubleHeader" : "N",
+        "gamedayType" : "P",
+        "tiebreaker" : "N",
+        "calendarEventID" : "14-661699-2022-05-24",
+        "seasonDisplay" : "2022",
+        "dayNight" : "night",
+        "scheduledInnings" : 9,
+        "reverseHomeAwayStatus" : false,
+        "inningBreakLength" : 120,
+        "gamesInSeries" : 3,
+        "seriesGameNumber" : 2,
+        "seriesDescription" : "Regular Season",
+        "recordSource" : "S",
+        "ifNecessary" : "N",
+        "ifNecessaryDescription" : "Normal Game"
+      }, {
+        "gamePk" : 661998,
+        "link" : "/api/v1.1/game/661998/feed/live",
+        "gameType" : "R",
+        "season" : "2022",
+        "gameDate" : "2022-05-24T23:45:00Z",
+        "officialDate" : "2022-05-24",
+        "status" : {
+          "abstractGameState" : "Preview",
+          "codedGameState" : "S",
+          "detailedState" : "Scheduled",
+          "statusCode" : "S",
+          "startTimeTBD" : false,
+          "abstractGameCode" : "P"
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 22,
+              "losses" : 20,
+              "pct" : ".524"
+            },
+            "team" : {
+              "id" : 141,
+              "name" : "Toronto Blue Jays",
+              "link" : "/api/v1/teams/141"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 24,
+              "losses" : 18,
+              "pct" : ".571"
+            },
+            "team" : {
+              "id" : 138,
+              "name" : "St. Louis Cardinals",
+              "link" : "/api/v1/teams/138"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          }
+        },
+        "venue" : {
+          "id" : 2889,
+          "name" : "Busch Stadium",
+          "link" : "/api/v1/venues/2889"
+        },
+        "content" : {
+          "link" : "/api/v1/game/661998/content"
+        },
+        "gameNumber" : 1,
+        "publicFacing" : true,
+        "doubleHeader" : "N",
+        "gamedayType" : "P",
+        "tiebreaker" : "N",
+        "calendarEventID" : "14-661998-2022-05-24",
+        "seasonDisplay" : "2022",
+        "dayNight" : "night",
+        "scheduledInnings" : 9,
+        "reverseHomeAwayStatus" : false,
+        "inningBreakLength" : 120,
+        "gamesInSeries" : 2,
+        "seriesGameNumber" : 2,
+        "seriesDescription" : "Regular Season",
+        "recordSource" : "S",
+        "ifNecessary" : "N",
+        "ifNecessaryDescription" : "Normal Game"
+      }, {
+        "gamePk" : 662846,
+        "link" : "/api/v1.1/game/662846/feed/live",
+        "gameType" : "R",
+        "season" : "2022",
+        "gameDate" : "2022-05-25T00:10:00Z",
+        "officialDate" : "2022-05-24",
+        "status" : {
+          "abstractGameState" : "Preview",
+          "codedGameState" : "S",
+          "detailedState" : "Scheduled",
+          "statusCode" : "S",
+          "startTimeTBD" : false,
+          "abstractGameCode" : "P"
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 17,
+              "losses" : 20,
+              "pct" : ".459"
+            },
+            "team" : {
+              "id" : 114,
+              "name" : "Cleveland Guardians",
+              "link" : "/api/v1/teams/114"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 27,
+              "losses" : 15,
+              "pct" : ".643"
+            },
+            "team" : {
+              "id" : 117,
+              "name" : "Houston Astros",
+              "link" : "/api/v1/teams/117"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          }
+        },
+        "venue" : {
+          "id" : 2392,
+          "name" : "Minute Maid Park",
+          "link" : "/api/v1/venues/2392"
+        },
+        "content" : {
+          "link" : "/api/v1/game/662846/content"
+        },
+        "gameNumber" : 1,
+        "publicFacing" : true,
+        "doubleHeader" : "N",
+        "gamedayType" : "P",
+        "tiebreaker" : "N",
+        "calendarEventID" : "14-662846-2022-05-24",
+        "seasonDisplay" : "2022",
+        "dayNight" : "night",
+        "scheduledInnings" : 9,
+        "reverseHomeAwayStatus" : false,
+        "inningBreakLength" : 120,
+        "gamesInSeries" : 3,
+        "seriesGameNumber" : 2,
+        "seriesDescription" : "Regular Season",
+        "recordSource" : "S",
+        "ifNecessary" : "N",
+        "ifNecessaryDescription" : "Normal Game"
+      }, {
+        "gamePk" : 661488,
+        "link" : "/api/v1.1/game/661488/feed/live",
+        "gameType" : "R",
+        "season" : "2022",
+        "gameDate" : "2022-05-25T00:10:00Z",
+        "officialDate" : "2022-05-24",
+        "status" : {
+          "abstractGameState" : "Preview",
+          "codedGameState" : "S",
+          "detailedState" : "Scheduled",
+          "statusCode" : "S",
+          "startTimeTBD" : false,
+          "abstractGameCode" : "P"
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 19,
+              "losses" : 22,
+              "pct" : ".463"
+            },
+            "team" : {
+              "id" : 111,
+              "name" : "Boston Red Sox",
+              "link" : "/api/v1/teams/111"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 21,
+              "losses" : 20,
+              "pct" : ".512"
+            },
+            "team" : {
+              "id" : 145,
+              "name" : "Chicago White Sox",
+              "link" : "/api/v1/teams/145"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          }
+        },
+        "venue" : {
+          "id" : 4,
+          "name" : "Guaranteed Rate Field",
+          "link" : "/api/v1/venues/4"
+        },
+        "content" : {
+          "link" : "/api/v1/game/661488/content"
+        },
+        "gameNumber" : 1,
+        "publicFacing" : true,
+        "doubleHeader" : "N",
+        "gamedayType" : "P",
+        "tiebreaker" : "N",
+        "calendarEventID" : "14-661488-2022-05-24",
+        "seasonDisplay" : "2022",
+        "dayNight" : "night",
+        "scheduledInnings" : 9,
+        "reverseHomeAwayStatus" : false,
+        "inningBreakLength" : 120,
+        "gamesInSeries" : 3,
+        "seriesGameNumber" : 1,
+        "seriesDescription" : "Regular Season",
+        "recordSource" : "S",
+        "ifNecessary" : "N",
+        "ifNecessaryDescription" : "Normal Game"
+      }, {
+        "gamePk" : 663381,
+        "link" : "/api/v1.1/game/663381/feed/live",
+        "gameType" : "R",
+        "season" : "2022",
+        "gameDate" : "2022-05-25T01:38:00Z",
+        "officialDate" : "2022-05-24",
+        "status" : {
+          "abstractGameState" : "Preview",
+          "codedGameState" : "S",
+          "detailedState" : "Scheduled",
+          "statusCode" : "S",
+          "startTimeTBD" : false,
+          "abstractGameCode" : "P"
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 18,
+              "losses" : 22,
+              "pct" : ".450"
+            },
+            "team" : {
+              "id" : 140,
+              "name" : "Texas Rangers",
+              "link" : "/api/v1/teams/140"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 26,
+              "losses" : 17,
+              "pct" : ".605"
+            },
+            "team" : {
+              "id" : 108,
+              "name" : "Los Angeles Angels",
+              "link" : "/api/v1/teams/108"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          }
+        },
+        "venue" : {
+          "id" : 1,
+          "name" : "Angel Stadium",
+          "link" : "/api/v1/venues/1"
+        },
+        "content" : {
+          "link" : "/api/v1/game/663381/content"
+        },
+        "gameNumber" : 1,
+        "publicFacing" : true,
+        "doubleHeader" : "N",
+        "gamedayType" : "P",
+        "tiebreaker" : "N",
+        "calendarEventID" : "14-663381-2022-05-24",
+        "seasonDisplay" : "2022",
+        "dayNight" : "night",
+        "scheduledInnings" : 9,
+        "reverseHomeAwayStatus" : false,
+        "inningBreakLength" : 120,
+        "gamesInSeries" : 2,
+        "seriesGameNumber" : 1,
+        "seriesDescription" : "Regular Season",
+        "recordSource" : "S",
+        "ifNecessary" : "N",
+        "ifNecessaryDescription" : "Normal Game"
+      }, {
+        "gamePk" : 663339,
+        "link" : "/api/v1.1/game/663339/feed/live",
+        "gameType" : "R",
+        "season" : "2022",
+        "gameDate" : "2022-05-25T01:40:00Z",
+        "officialDate" : "2022-05-24",
+        "status" : {
+          "abstractGameState" : "Preview",
+          "codedGameState" : "S",
+          "detailedState" : "Scheduled",
+          "statusCode" : "S",
+          "startTimeTBD" : false,
+          "abstractGameCode" : "P"
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 14,
+              "losses" : 26,
+              "pct" : ".350"
+            },
+            "team" : {
+              "id" : 118,
+              "name" : "Kansas City Royals",
+              "link" : "/api/v1/teams/118"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 21,
+              "losses" : 22,
+              "pct" : ".488"
+            },
+            "team" : {
+              "id" : 109,
+              "name" : "Arizona Diamondbacks",
+              "link" : "/api/v1/teams/109"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          }
+        },
+        "venue" : {
+          "id" : 15,
+          "name" : "Chase Field",
+          "link" : "/api/v1/venues/15"
+        },
+        "content" : {
+          "link" : "/api/v1/game/663339/content"
+        },
+        "gameNumber" : 1,
+        "publicFacing" : true,
+        "doubleHeader" : "N",
+        "gamedayType" : "P",
+        "tiebreaker" : "N",
+        "calendarEventID" : "14-663339-2022-05-24",
+        "seasonDisplay" : "2022",
+        "dayNight" : "night",
+        "scheduledInnings" : 9,
+        "reverseHomeAwayStatus" : false,
+        "inningBreakLength" : 120,
+        "gamesInSeries" : 2,
+        "seriesGameNumber" : 2,
+        "seriesDescription" : "Regular Season",
+        "recordSource" : "S",
+        "ifNecessary" : "N",
+        "ifNecessaryDescription" : "Normal Game"
+      }, {
+        "gamePk" : 662134,
+        "link" : "/api/v1.1/game/662134/feed/live",
+        "gameType" : "R",
+        "season" : "2022",
+        "gameDate" : "2022-05-25T01:40:00Z",
+        "officialDate" : "2022-05-24",
+        "status" : {
+          "abstractGameState" : "Preview",
+          "codedGameState" : "S",
+          "detailedState" : "Scheduled",
+          "statusCode" : "S",
+          "startTimeTBD" : false,
+          "abstractGameCode" : "P"
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 17,
+              "losses" : 26,
+              "pct" : ".395"
+            },
+            "team" : {
+              "id" : 133,
+              "name" : "Oakland Athletics",
+              "link" : "/api/v1/teams/133"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 17,
+              "losses" : 25,
+              "pct" : ".405"
+            },
+            "team" : {
+              "id" : 136,
+              "name" : "Seattle Mariners",
+              "link" : "/api/v1/teams/136"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          }
+        },
+        "venue" : {
+          "id" : 680,
+          "name" : "T-Mobile Park",
+          "link" : "/api/v1/venues/680"
+        },
+        "content" : {
+          "link" : "/api/v1/game/662134/content"
+        },
+        "gameNumber" : 1,
+        "publicFacing" : true,
+        "doubleHeader" : "N",
+        "gamedayType" : "P",
+        "tiebreaker" : "N",
+        "calendarEventID" : "14-662134-2022-05-24",
+        "seasonDisplay" : "2022",
+        "dayNight" : "night",
+        "scheduledInnings" : 9,
+        "reverseHomeAwayStatus" : false,
+        "inningBreakLength" : 120,
+        "gamesInSeries" : 3,
+        "seriesGameNumber" : 2,
+        "seriesDescription" : "Regular Season",
+        "recordSource" : "S",
+        "ifNecessary" : "N",
+        "ifNecessaryDescription" : "Normal Game"
+      }, {
+        "gamePk" : 662229,
+        "link" : "/api/v1.1/game/662229/feed/live",
+        "gameType" : "R",
+        "season" : "2022",
+        "gameDate" : "2022-05-25T01:40:00Z",
+        "officialDate" : "2022-05-24",
+        "status" : {
+          "abstractGameState" : "Preview",
+          "codedGameState" : "S",
+          "detailedState" : "Scheduled",
+          "statusCode" : "S",
+          "startTimeTBD" : false,
+          "abstractGameCode" : "P"
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 26,
+              "losses" : 15,
+              "pct" : ".634"
+            },
+            "team" : {
+              "id" : 158,
+              "name" : "Milwaukee Brewers",
+              "link" : "/api/v1/teams/158"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 15
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 27,
+              "losses" : 14,
+              "pct" : ".659"
+            },
+            "team" : {
+              "id" : 135,
+              "name" : "San Diego Padres",
+              "link" : "/api/v1/teams/135"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          }
+        },
+        "venue" : {
+          "id" : 2680,
+          "name" : "Petco Park",
+          "link" : "/api/v1/venues/2680"
+        },
+        "content" : {
+          "link" : "/api/v1/game/662229/content"
+        },
+        "gameNumber" : 1,
+        "publicFacing" : true,
+        "doubleHeader" : "N",
+        "gamedayType" : "P",
+        "tiebreaker" : "N",
+        "calendarEventID" : "14-662229-2022-05-24",
+        "seasonDisplay" : "2022",
+        "dayNight" : "night",
+        "scheduledInnings" : 9,
+        "reverseHomeAwayStatus" : false,
+        "inningBreakLength" : 145,
+        "gamesInSeries" : 3,
+        "seriesGameNumber" : 2,
+        "seriesDescription" : "Regular Season",
+        "recordSource" : "S",
+        "ifNecessary" : "N",
+        "ifNecessaryDescription" : "Normal Game"
+      }, {
+        "gamePk" : 662074,
+        "link" : "/api/v1.1/game/662074/feed/live",
+        "gameType" : "R",
+        "season" : "2022",
+        "gameDate" : "2022-05-25T01:45:00Z",
+        "officialDate" : "2022-05-24",
+        "status" : {
+          "abstractGameState" : "Preview",
+          "codedGameState" : "S",
+          "detailedState" : "Scheduled",
+          "statusCode" : "S",
+          "startTimeTBD" : false,
+          "abstractGameCode" : "P"
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 28,
+              "losses" : 15,
+              "pct" : ".651"
+            },
+            "team" : {
+              "id" : 121,
+              "name" : "New York Mets",
+              "link" : "/api/v1/teams/121"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 22,
+              "losses" : 18,
+              "pct" : ".550"
+            },
+            "team" : {
+              "id" : 137,
+              "name" : "San Francisco Giants",
+              "link" : "/api/v1/teams/137"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 15
+          }
+        },
+        "venue" : {
+          "id" : 2395,
+          "name" : "Oracle Park",
+          "link" : "/api/v1/venues/2395"
+        },
+        "content" : {
+          "link" : "/api/v1/game/662074/content"
+        },
+        "gameNumber" : 1,
+        "publicFacing" : true,
+        "doubleHeader" : "N",
+        "gamedayType" : "P",
+        "tiebreaker" : "N",
+        "calendarEventID" : "14-662074-2022-05-24",
+        "seasonDisplay" : "2022",
+        "dayNight" : "night",
+        "scheduledInnings" : 9,
+        "reverseHomeAwayStatus" : false,
+        "inningBreakLength" : 120,
+        "gamesInSeries" : 3,
+        "seriesGameNumber" : 2,
+        "seriesDescription" : "Regular Season",
+        "recordSource" : "S",
+        "ifNecessary" : "N",
+        "ifNecessaryDescription" : "Normal Game"
+      } ],
+      "events" : [ ]
+    }, {
+      "date" : "2022-05-25",
+      "totalItems" : 13,
+      "totalEvents" : 0,
+      "totalGames" : 13,
+      "totalGamesInProgress" : 0,
+      "games" : [ {
+        "gamePk" : 662453,
+        "link" : "/api/v1.1/game/662453/feed/live",
+        "gameType" : "R",
+        "season" : "2022",
+        "gameDate" : "2022-05-25T16:35:00Z",
+        "officialDate" : "2022-05-25",
+        "status" : {
+          "abstractGameState" : "Preview",
+          "codedGameState" : "S",
+          "detailedState" : "Scheduled",
+          "statusCode" : "S",
+          "startTimeTBD" : false,
+          "abstractGameCode" : "P"
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 19,
+              "losses" : 22,
+              "pct" : ".463"
+            },
+            "team" : {
+              "id" : 115,
+              "name" : "Colorado Rockies",
+              "link" : "/api/v1/teams/115"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 17,
+              "losses" : 24,
+              "pct" : ".415"
+            },
+            "team" : {
+              "id" : 134,
+              "name" : "Pittsburgh Pirates",
+              "link" : "/api/v1/teams/134"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          }
+        },
+        "venue" : {
+          "id" : 31,
+          "name" : "PNC Park",
+          "link" : "/api/v1/venues/31"
+        },
+        "content" : {
+          "link" : "/api/v1/game/662453/content"
+        },
+        "gameNumber" : 1,
+        "publicFacing" : true,
+        "doubleHeader" : "N",
+        "gamedayType" : "P",
+        "tiebreaker" : "N",
+        "calendarEventID" : "14-662453-2022-05-25",
+        "seasonDisplay" : "2022",
+        "dayNight" : "day",
+        "scheduledInnings" : 9,
+        "reverseHomeAwayStatus" : false,
+        "inningBreakLength" : 120,
+        "gamesInSeries" : 3,
+        "seriesGameNumber" : 3,
+        "seriesDescription" : "Regular Season",
+        "recordSource" : "S",
+        "ifNecessary" : "N",
+        "ifNecessaryDescription" : "Normal Game"
+      }, {
+        "gamePk" : 661772,
+        "link" : "/api/v1.1/game/661772/feed/live",
+        "gameType" : "R",
+        "season" : "2022",
+        "gameDate" : "2022-05-25T17:10:00Z",
+        "officialDate" : "2022-05-25",
+        "status" : {
+          "abstractGameState" : "Preview",
+          "codedGameState" : "S",
+          "detailedState" : "Scheduled",
+          "statusCode" : "S",
+          "startTimeTBD" : false,
+          "abstractGameCode" : "P"
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 14,
+              "losses" : 27,
+              "pct" : ".341"
+            },
+            "team" : {
+              "id" : 116,
+              "name" : "Detroit Tigers",
+              "link" : "/api/v1/teams/116"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 26,
+              "losses" : 16,
+              "pct" : ".619"
+            },
+            "team" : {
+              "id" : 142,
+              "name" : "Minnesota Twins",
+              "link" : "/api/v1/teams/142"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          }
+        },
+        "venue" : {
+          "id" : 3312,
+          "name" : "Target Field",
+          "link" : "/api/v1/venues/3312"
+        },
+        "content" : {
+          "link" : "/api/v1/game/661772/content"
+        },
+        "gameNumber" : 1,
+        "publicFacing" : true,
+        "doubleHeader" : "N",
+        "gamedayType" : "P",
+        "tiebreaker" : "N",
+        "calendarEventID" : "14-661772-2022-05-25",
+        "seasonDisplay" : "2022",
+        "dayNight" : "day",
+        "scheduledInnings" : 9,
+        "reverseHomeAwayStatus" : false,
+        "inningBreakLength" : 120,
+        "gamesInSeries" : 3,
+        "seriesGameNumber" : 3,
+        "seriesDescription" : "Regular Season",
+        "recordSource" : "S",
+        "ifNecessary" : "N",
+        "ifNecessaryDescription" : "Normal Game"
+      }, {
+        "gamePk" : 662093,
+        "link" : "/api/v1.1/game/662093/feed/live",
+        "gameType" : "R",
+        "season" : "2022",
+        "gameDate" : "2022-05-25T19:45:00Z",
+        "officialDate" : "2022-05-25",
+        "status" : {
+          "abstractGameState" : "Preview",
+          "codedGameState" : "S",
+          "detailedState" : "Scheduled",
+          "statusCode" : "S",
+          "startTimeTBD" : false,
+          "abstractGameCode" : "P"
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 28,
+              "losses" : 15,
+              "pct" : ".651"
+            },
+            "team" : {
+              "id" : 121,
+              "name" : "New York Mets",
+              "link" : "/api/v1/teams/121"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 22,
+              "losses" : 18,
+              "pct" : ".550"
+            },
+            "team" : {
+              "id" : 137,
+              "name" : "San Francisco Giants",
+              "link" : "/api/v1/teams/137"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 15
+          }
+        },
+        "venue" : {
+          "id" : 2395,
+          "name" : "Oracle Park",
+          "link" : "/api/v1/venues/2395"
+        },
+        "content" : {
+          "link" : "/api/v1/game/662093/content"
+        },
+        "gameNumber" : 1,
+        "publicFacing" : true,
+        "doubleHeader" : "N",
+        "gamedayType" : "P",
+        "tiebreaker" : "N",
+        "calendarEventID" : "14-662093-2022-05-25",
+        "seasonDisplay" : "2022",
+        "dayNight" : "day",
+        "scheduledInnings" : 9,
+        "reverseHomeAwayStatus" : false,
+        "inningBreakLength" : 120,
+        "gamesInSeries" : 3,
+        "seriesGameNumber" : 3,
+        "seriesDescription" : "Regular Season",
+        "recordSource" : "S",
+        "ifNecessary" : "N",
+        "ifNecessaryDescription" : "Normal Game"
+      }, {
+        "gamePk" : 662527,
+        "link" : "/api/v1.1/game/662527/feed/live",
+        "gameType" : "R",
+        "season" : "2022",
+        "gameDate" : "2022-05-25T20:05:00Z",
+        "officialDate" : "2022-05-25",
+        "status" : {
+          "abstractGameState" : "Preview",
+          "codedGameState" : "S",
+          "detailedState" : "Scheduled",
+          "statusCode" : "S",
+          "startTimeTBD" : false,
+          "abstractGameCode" : "P"
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 28,
+              "losses" : 13,
+              "pct" : ".683"
+            },
+            "team" : {
+              "id" : 119,
+              "name" : "Los Angeles Dodgers",
+              "link" : "/api/v1/teams/119"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 14,
+              "losses" : 29,
+              "pct" : ".326"
+            },
+            "team" : {
+              "id" : 120,
+              "name" : "Washington Nationals",
+              "link" : "/api/v1/teams/120"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          }
+        },
+        "venue" : {
+          "id" : 3309,
+          "name" : "Nationals Park",
+          "link" : "/api/v1/venues/3309"
+        },
+        "content" : {
+          "link" : "/api/v1/game/662527/content"
+        },
+        "gameNumber" : 1,
+        "publicFacing" : true,
+        "doubleHeader" : "N",
+        "gamedayType" : "P",
+        "tiebreaker" : "N",
+        "calendarEventID" : "14-662527-2022-05-25",
+        "seasonDisplay" : "2022",
+        "dayNight" : "day",
+        "scheduledInnings" : 9,
+        "reverseHomeAwayStatus" : false,
+        "inningBreakLength" : 120,
+        "gamesInSeries" : 3,
+        "seriesGameNumber" : 3,
+        "seriesDescription" : "Regular Season",
+        "recordSource" : "S",
+        "ifNecessary" : "N",
+        "ifNecessaryDescription" : "Normal Game"
+      }, {
+        "gamePk" : 662133,
+        "link" : "/api/v1.1/game/662133/feed/live",
+        "gameType" : "R",
+        "season" : "2022",
+        "gameDate" : "2022-05-25T20:10:00Z",
+        "officialDate" : "2022-05-25",
+        "status" : {
+          "abstractGameState" : "Preview",
+          "codedGameState" : "S",
+          "detailedState" : "Scheduled",
+          "statusCode" : "S",
+          "startTimeTBD" : false,
+          "abstractGameCode" : "P"
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 17,
+              "losses" : 26,
+              "pct" : ".395"
+            },
+            "team" : {
+              "id" : 133,
+              "name" : "Oakland Athletics",
+              "link" : "/api/v1/teams/133"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 17,
+              "losses" : 25,
+              "pct" : ".405"
+            },
+            "team" : {
+              "id" : 136,
+              "name" : "Seattle Mariners",
+              "link" : "/api/v1/teams/136"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          }
+        },
+        "venue" : {
+          "id" : 680,
+          "name" : "T-Mobile Park",
+          "link" : "/api/v1/venues/680"
+        },
+        "content" : {
+          "link" : "/api/v1/game/662133/content"
+        },
+        "gameNumber" : 1,
+        "publicFacing" : true,
+        "doubleHeader" : "N",
+        "gamedayType" : "P",
+        "tiebreaker" : "N",
+        "calendarEventID" : "14-662133-2022-05-25",
+        "seasonDisplay" : "2022",
+        "dayNight" : "day",
+        "scheduledInnings" : 9,
+        "reverseHomeAwayStatus" : false,
+        "inningBreakLength" : 120,
+        "gamesInSeries" : 3,
+        "seriesGameNumber" : 3,
+        "seriesDescription" : "Regular Season",
+        "recordSource" : "S",
+        "ifNecessary" : "N",
+        "ifNecessaryDescription" : "Normal Game"
+      }, {
+        "gamePk" : 662228,
+        "link" : "/api/v1.1/game/662228/feed/live",
+        "gameType" : "R",
+        "season" : "2022",
+        "gameDate" : "2022-05-25T20:10:00Z",
+        "officialDate" : "2022-05-25",
+        "status" : {
+          "abstractGameState" : "Preview",
+          "codedGameState" : "S",
+          "detailedState" : "Scheduled",
+          "statusCode" : "S",
+          "startTimeTBD" : false,
+          "abstractGameCode" : "P"
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 26,
+              "losses" : 15,
+              "pct" : ".634"
+            },
+            "team" : {
+              "id" : 158,
+              "name" : "Milwaukee Brewers",
+              "link" : "/api/v1/teams/158"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 15
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 27,
+              "losses" : 14,
+              "pct" : ".659"
+            },
+            "team" : {
+              "id" : 135,
+              "name" : "San Diego Padres",
+              "link" : "/api/v1/teams/135"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          }
+        },
+        "venue" : {
+          "id" : 2680,
+          "name" : "Petco Park",
+          "link" : "/api/v1/venues/2680"
+        },
+        "content" : {
+          "link" : "/api/v1/game/662228/content"
+        },
+        "gameNumber" : 1,
+        "publicFacing" : true,
+        "doubleHeader" : "N",
+        "gamedayType" : "P",
+        "tiebreaker" : "N",
+        "calendarEventID" : "14-662228-2022-05-25",
+        "seasonDisplay" : "2022",
+        "dayNight" : "day",
+        "scheduledInnings" : 9,
+        "reverseHomeAwayStatus" : false,
+        "inningBreakLength" : 120,
+        "gamesInSeries" : 3,
+        "seriesGameNumber" : 3,
+        "seriesDescription" : "Regular Season",
+        "recordSource" : "S",
+        "ifNecessary" : "N",
+        "ifNecessaryDescription" : "Normal Game"
+      }, {
+        "gamePk" : 663082,
+        "link" : "/api/v1.1/game/663082/feed/live",
+        "gameType" : "R",
+        "season" : "2022",
+        "gameDate" : "2022-05-25T22:40:00Z",
+        "officialDate" : "2022-05-25",
+        "status" : {
+          "abstractGameState" : "Preview",
+          "codedGameState" : "S",
+          "detailedState" : "Scheduled",
+          "statusCode" : "S",
+          "startTimeTBD" : false,
+          "abstractGameCode" : "P"
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 17,
+              "losses" : 24,
+              "pct" : ".415"
+            },
+            "team" : {
+              "id" : 112,
+              "name" : "Chicago Cubs",
+              "link" : "/api/v1/teams/112"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 12,
+              "losses" : 29,
+              "pct" : ".293"
+            },
+            "team" : {
+              "id" : 113,
+              "name" : "Cincinnati Reds",
+              "link" : "/api/v1/teams/113"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          }
+        },
+        "venue" : {
+          "id" : 2602,
+          "name" : "Great American Ball Park",
+          "link" : "/api/v1/venues/2602"
+        },
+        "content" : {
+          "link" : "/api/v1/game/663082/content"
+        },
+        "gameNumber" : 1,
+        "publicFacing" : true,
+        "doubleHeader" : "N",
+        "gamedayType" : "P",
+        "tiebreaker" : "N",
+        "calendarEventID" : "14-663082-2022-05-25",
+        "seasonDisplay" : "2022",
+        "dayNight" : "night",
+        "scheduledInnings" : 9,
+        "reverseHomeAwayStatus" : false,
+        "gamesInSeries" : 4,
+        "seriesGameNumber" : 3,
+        "seriesDescription" : "Regular Season",
+        "recordSource" : "S",
+        "ifNecessary" : "N",
+        "ifNecessaryDescription" : "Normal Game"
+      }, {
+        "gamePk" : 662052,
+        "link" : "/api/v1.1/game/662052/feed/live",
+        "gameType" : "R",
+        "season" : "2022",
+        "gameDate" : "2022-05-25T22:40:00Z",
+        "officialDate" : "2022-05-25",
+        "status" : {
+          "abstractGameState" : "Preview",
+          "codedGameState" : "S",
+          "detailedState" : "Scheduled",
+          "statusCode" : "S",
+          "startTimeTBD" : false,
+          "abstractGameCode" : "P"
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 18,
+              "losses" : 22,
+              "pct" : ".450"
+            },
+            "team" : {
+              "id" : 146,
+              "name" : "Miami Marlins",
+              "link" : "/api/v1/teams/146"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 24,
+              "losses" : 17,
+              "pct" : ".585"
+            },
+            "team" : {
+              "id" : 139,
+              "name" : "Tampa Bay Rays",
+              "link" : "/api/v1/teams/139"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          }
+        },
+        "venue" : {
+          "id" : 12,
+          "name" : "Tropicana Field",
+          "link" : "/api/v1/venues/12"
+        },
+        "content" : {
+          "link" : "/api/v1/game/662052/content"
+        },
+        "gameNumber" : 1,
+        "publicFacing" : true,
+        "doubleHeader" : "N",
+        "gamedayType" : "P",
+        "tiebreaker" : "N",
+        "calendarEventID" : "14-662052-2022-05-25",
+        "seasonDisplay" : "2022",
+        "dayNight" : "night",
+        "scheduledInnings" : 9,
+        "reverseHomeAwayStatus" : false,
+        "inningBreakLength" : 120,
+        "gamesInSeries" : 2,
+        "seriesGameNumber" : 2,
+        "seriesDescription" : "Regular Season",
+        "recordSource" : "S",
+        "ifNecessary" : "N",
+        "ifNecessaryDescription" : "Normal Game"
+      }, {
+        "gamePk" : 661286,
+        "link" : "/api/v1.1/game/661286/feed/live",
+        "gameType" : "R",
+        "season" : "2022",
+        "gameDate" : "2022-05-25T23:05:00Z",
+        "officialDate" : "2022-05-25",
+        "status" : {
+          "abstractGameState" : "Preview",
+          "codedGameState" : "S",
+          "detailedState" : "Scheduled",
+          "statusCode" : "S",
+          "startTimeTBD" : false,
+          "abstractGameCode" : "P"
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 18,
+              "losses" : 25,
+              "pct" : ".419"
+            },
+            "team" : {
+              "id" : 110,
+              "name" : "Baltimore Orioles",
+              "link" : "/api/v1/teams/110"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 29,
+              "losses" : 13,
+              "pct" : ".690"
+            },
+            "team" : {
+              "id" : 147,
+              "name" : "New York Yankees",
+              "link" : "/api/v1/teams/147"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          }
+        },
+        "venue" : {
+          "id" : 3313,
+          "name" : "Yankee Stadium",
+          "link" : "/api/v1/venues/3313"
+        },
+        "content" : {
+          "link" : "/api/v1/game/661286/content"
+        },
+        "gameNumber" : 1,
+        "publicFacing" : true,
+        "doubleHeader" : "N",
+        "gamedayType" : "P",
+        "tiebreaker" : "N",
+        "calendarEventID" : "14-661286-2022-05-25",
+        "seasonDisplay" : "2022",
+        "dayNight" : "night",
+        "scheduledInnings" : 9,
+        "reverseHomeAwayStatus" : false,
+        "inningBreakLength" : 120,
+        "gamesInSeries" : 3,
+        "seriesGameNumber" : 3,
+        "seriesDescription" : "Regular Season",
+        "recordSource" : "S",
+        "ifNecessary" : "N",
+        "ifNecessaryDescription" : "Normal Game"
+      }, {
+        "gamePk" : 661542,
+        "link" : "/api/v1.1/game/661542/feed/live",
+        "gameType" : "R",
+        "season" : "2022",
+        "gameDate" : "2022-05-25T23:20:00Z",
+        "officialDate" : "2022-05-25",
+        "status" : {
+          "abstractGameState" : "Preview",
+          "codedGameState" : "S",
+          "detailedState" : "Scheduled",
+          "statusCode" : "S",
+          "startTimeTBD" : false,
+          "abstractGameCode" : "P"
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 20,
+              "losses" : 22,
+              "pct" : ".476"
+            },
+            "team" : {
+              "id" : 143,
+              "name" : "Philadelphia Phillies",
+              "link" : "/api/v1/teams/143"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 19,
+              "losses" : 23,
+              "pct" : ".452"
+            },
+            "team" : {
+              "id" : 144,
+              "name" : "Atlanta Braves",
+              "link" : "/api/v1/teams/144"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          }
+        },
+        "venue" : {
+          "id" : 4705,
+          "name" : "Truist Park",
+          "link" : "/api/v1/venues/4705"
+        },
+        "content" : {
+          "link" : "/api/v1/game/661542/content"
+        },
+        "gameNumber" : 1,
+        "publicFacing" : true,
+        "doubleHeader" : "N",
+        "gamedayType" : "P",
+        "tiebreaker" : "N",
+        "calendarEventID" : "14-661542-2022-05-25",
+        "seasonDisplay" : "2022",
+        "dayNight" : "night",
+        "scheduledInnings" : 9,
+        "reverseHomeAwayStatus" : false,
+        "inningBreakLength" : 120,
+        "gamesInSeries" : 4,
+        "seriesGameNumber" : 3,
+        "seriesDescription" : "Regular Season",
+        "recordSource" : "S",
+        "ifNecessary" : "N",
+        "ifNecessaryDescription" : "Normal Game"
+      }, {
+        "gamePk" : 662845,
+        "link" : "/api/v1.1/game/662845/feed/live",
+        "gameType" : "R",
+        "season" : "2022",
+        "gameDate" : "2022-05-26T00:10:00Z",
+        "officialDate" : "2022-05-25",
+        "status" : {
+          "abstractGameState" : "Preview",
+          "codedGameState" : "S",
+          "detailedState" : "Scheduled",
+          "statusCode" : "S",
+          "startTimeTBD" : false,
+          "abstractGameCode" : "P"
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 17,
+              "losses" : 20,
+              "pct" : ".459"
+            },
+            "team" : {
+              "id" : 114,
+              "name" : "Cleveland Guardians",
+              "link" : "/api/v1/teams/114"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 27,
+              "losses" : 15,
+              "pct" : ".643"
+            },
+            "team" : {
+              "id" : 117,
+              "name" : "Houston Astros",
+              "link" : "/api/v1/teams/117"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          }
+        },
+        "venue" : {
+          "id" : 2392,
+          "name" : "Minute Maid Park",
+          "link" : "/api/v1/venues/2392"
+        },
+        "content" : {
+          "link" : "/api/v1/game/662845/content"
+        },
+        "gameNumber" : 1,
+        "publicFacing" : true,
+        "doubleHeader" : "N",
+        "gamedayType" : "P",
+        "tiebreaker" : "N",
+        "calendarEventID" : "14-662845-2022-05-25",
+        "seasonDisplay" : "2022",
+        "dayNight" : "night",
+        "scheduledInnings" : 9,
+        "reverseHomeAwayStatus" : false,
+        "inningBreakLength" : 120,
+        "gamesInSeries" : 3,
+        "seriesGameNumber" : 3,
+        "seriesDescription" : "Regular Season",
+        "recordSource" : "S",
+        "ifNecessary" : "N",
+        "ifNecessaryDescription" : "Normal Game"
+      }, {
+        "gamePk" : 661487,
+        "link" : "/api/v1.1/game/661487/feed/live",
+        "gameType" : "R",
+        "season" : "2022",
+        "gameDate" : "2022-05-26T00:10:00Z",
+        "officialDate" : "2022-05-25",
+        "status" : {
+          "abstractGameState" : "Preview",
+          "codedGameState" : "S",
+          "detailedState" : "Scheduled",
+          "statusCode" : "S",
+          "startTimeTBD" : false,
+          "abstractGameCode" : "P"
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 19,
+              "losses" : 22,
+              "pct" : ".463"
+            },
+            "team" : {
+              "id" : 111,
+              "name" : "Boston Red Sox",
+              "link" : "/api/v1/teams/111"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 21,
+              "losses" : 20,
+              "pct" : ".512"
+            },
+            "team" : {
+              "id" : 145,
+              "name" : "Chicago White Sox",
+              "link" : "/api/v1/teams/145"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          }
+        },
+        "venue" : {
+          "id" : 4,
+          "name" : "Guaranteed Rate Field",
+          "link" : "/api/v1/venues/4"
+        },
+        "content" : {
+          "link" : "/api/v1/game/661487/content"
+        },
+        "gameNumber" : 1,
+        "publicFacing" : true,
+        "doubleHeader" : "N",
+        "gamedayType" : "P",
+        "tiebreaker" : "N",
+        "calendarEventID" : "14-661487-2022-05-25",
+        "seasonDisplay" : "2022",
+        "dayNight" : "night",
+        "scheduledInnings" : 9,
+        "reverseHomeAwayStatus" : false,
+        "inningBreakLength" : 120,
+        "gamesInSeries" : 3,
+        "seriesGameNumber" : 2,
+        "seriesDescription" : "Regular Season",
+        "recordSource" : "S",
+        "ifNecessary" : "N",
+        "ifNecessaryDescription" : "Normal Game"
+      }, {
+        "gamePk" : 663446,
+        "link" : "/api/v1.1/game/663446/feed/live",
+        "gameType" : "R",
+        "season" : "2022",
+        "gameDate" : "2022-05-26T01:38:00Z",
+        "officialDate" : "2022-05-25",
+        "status" : {
+          "abstractGameState" : "Preview",
+          "codedGameState" : "S",
+          "detailedState" : "Scheduled",
+          "statusCode" : "S",
+          "startTimeTBD" : false,
+          "abstractGameCode" : "P"
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 18,
+              "losses" : 22,
+              "pct" : ".450"
+            },
+            "team" : {
+              "id" : 140,
+              "name" : "Texas Rangers",
+              "link" : "/api/v1/teams/140"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 26,
+              "losses" : 17,
+              "pct" : ".605"
+            },
+            "team" : {
+              "id" : 108,
+              "name" : "Los Angeles Angels",
+              "link" : "/api/v1/teams/108"
+            },
+            "splitSquad" : false,
+            "seriesNumber" : 14
+          }
+        },
+        "venue" : {
+          "id" : 1,
+          "name" : "Angel Stadium",
+          "link" : "/api/v1/venues/1"
+        },
+        "content" : {
+          "link" : "/api/v1/game/663446/content"
+        },
+        "gameNumber" : 1,
+        "publicFacing" : true,
+        "doubleHeader" : "N",
+        "gamedayType" : "P",
+        "tiebreaker" : "N",
+        "calendarEventID" : "14-663446-2022-05-25",
+        "seasonDisplay" : "2022",
+        "dayNight" : "night",
+        "scheduledInnings" : 9,
+        "reverseHomeAwayStatus" : false,
+        "inningBreakLength" : 120,
+        "gamesInSeries" : 2,
+        "seriesGameNumber" : 2,
+        "seriesDescription" : "Regular Season",
+        "recordSource" : "S",
+        "ifNecessary" : "N",
+        "ifNecessaryDescription" : "Normal Game"
+      } ],
+      "events" : [ ]
+    } ]
+  }
