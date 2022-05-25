@@ -60,7 +60,7 @@ def main():
             sendMessage(recipients, message)
 
 #uses local time
-schedule.every().day.at("10:00").do(main)
+schedule.every().day.at("09:00").do(main)
 
 if __name__ == '__main__':
     while True:
