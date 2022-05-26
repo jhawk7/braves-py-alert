@@ -9,8 +9,8 @@ from providers import PROVIDERS
 http = urllib3.PoolManager()
 
 def getGames():
-    url = 'http://statsapi.mlb.com/api/v1/schedule/games/?sportId=1'
-    
+    start_date = end_date = datetime.date.today().strftime("%Y-%m-%d")
+    url = f'https://statsapi.mlb.com/api/v1/schedule/games/?sportId=1&startDate={start_date}&endDate={end_date}'
     #should retry 3x by default
     res = http.request('GET', url)
     body = res.data.decode("utf-8")
