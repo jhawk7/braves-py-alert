@@ -60,9 +60,10 @@ def main():
             sendMessage(recipients, message)
 
 #uses local time
-schedule.every().day.at("09:00").do(main)
+#schedule.every().day.at("09:00").do(main)
 
 if __name__ == '__main__':
-    while True:
+    main()
+    ''' while True:
         schedule.run_pending()
-        time.sleep(3600) #sleep in secs
+        time.sleep(3600) #sleep in secs '''
