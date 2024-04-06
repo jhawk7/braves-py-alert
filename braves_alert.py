@@ -22,11 +22,12 @@ def getGames():
 
 
 def sendMessage(recipients, message):
-    sender_email = os.getenv('EMAIL')
-    email_password = os.getenv('PASS')
+    sender_email = str(os.getenv('EMAIL'))
+    email_password = str(os.getenv('PASS'))
+    #print(f'{sender_email} {email_password}')
     auth = (sender_email, email_password)
-    server = smtplib.SMTP("smtp.gmail.com", 587)
-    server.starttls()
+    server = smtplib.SMTP_SSL("smtp.gmail.com", 465)
+    #server.starttls()
     server.login(auth[0], auth[1])
     server.sendmail(auth[0], recipients, message)
 
