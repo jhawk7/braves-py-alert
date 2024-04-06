@@ -1,0 +1,9 @@
+version: '3'
+services:
+  braves-alert:
+    image: jhawk7/braves-alert:latest
+    build: .
+    env_file:
+      - .env
+    restart: on-failure
+
