@@ -1,4 +1,3 @@
-version: '3'
 services:
   braves-alert:
     image: jhawk7/braves-alert:latest
