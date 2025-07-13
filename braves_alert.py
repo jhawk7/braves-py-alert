@@ -27,7 +27,7 @@ def sendMessage(recipients, message):
     server = smtplib.SMTP_SSL("smtp.gmail.com", 465)
     server.login(auth[0], auth[1])
     server.sendmail(auth[0], recipients, message)
-
+   
 
 def main():
     games = getGames()
@@ -52,6 +52,7 @@ def main():
             sendMessage(recipients, message)
         except Exception as e:
             #fallback to just emails
+            print(f"message failed; falling back; {e}")
             cc = str(os.getenv('CC_EMAILS')).split(",")
             recipients = cc
             message = f'Subject: Warning! Braves Home Game Today\n\nGametime @ {edt_gametime} EDT -__-\n\n' + \
