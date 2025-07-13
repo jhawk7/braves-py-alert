@@ -41,28 +41,30 @@ def main():
             gametime = game['gameDate']
             break
     
-    if gametime:
-        number = os.getenv('PHONE')
-        cc = str(os.getenv('CC_EMAILS')).split(",")
-        provider_name = str(os.getenv("MOBILE_PROVIDER"))
-        parsed_gametime = gametime.replace('T',' ').replace('Z','')
-        utc_gametime = datetime.datetime.strptime(parsed_gametime, "%Y-%m-%d %H:%M:%S")
-        edt_gametime = utc_gametime - datetime.timedelta(hours=4)
-        try:
-            #try sms text with emails
-            recipients = [f'{number}@{PROVIDERS.get(provider_name).get("sms")}'] + cc
-            message = f'Subject: Warning! Braves Home Game Today\n\nGameTime @ {edt_gametime} EDT -__-'
-            sendMessage(recipients, message)
-        except Exception as e:
-            #fallback to just emails
-            print(f"message failed; falling back; {e}")
-            cc = str(os.getenv('CC_EMAILS')).split(",")
-            recipients = cc
-            message = f'Subject: Warning! Braves Home Game Today\n\nGametime @ {edt_gametime} EDT -__-\n\n' + \
-            f'Email was sent as fallback due to the error below:\nFailed to send sms; error: {e}'
-            sendMessage(recipients, message)
-    else:
+    if not gametime:
         print("no game today")
+        return
+    
+    number = os.getenv('PHONE')
+    cc = str(os.getenv('CC_EMAILS')).split(",")
+    provider_name = str(os.getenv("MOBILE_PROVIDER"))
+    parsed_gametime = gametime.replace('T',' ').replace('Z','')
+    utc_gametime = datetime.datetime.strptime(parsed_gametime, "%Y-%m-%d %H:%M:%S")
+    edt_gametime = utc_gametime - datetime.timedelta(hours=4)
+    try:
+        #try sms text with emails
+        recipients = [f'{number}@{PROVIDERS.get(provider_name).get("sms")}'] + cc
+        message = f'Subject: Warning! Braves Home Game Today\n\nGameTime @ {edt_gametime} EDT -__-'
+        sendMessage(recipients, message)
+    except Exception as e:
+        #fallback to just emails
+        print(f"message failed; falling back; {e}")
+        cc = str(os.getenv('CC_EMAILS')).split(",")
+        recipients = cc
+        message = f'Subject: Warning! Braves Home Game Today\n\nGametime @ {edt_gametime} EDT -__-\n\n' + \
+        f'Email was sent as fallback due to the error below:\nFailed to send sms; error: {e}'
+        sendMessage(recipients, message)
+
 
 if __name__ == '__main__':
     main()
