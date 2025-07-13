@@ -12,6 +12,8 @@ def getGames():
     url = f'https://statsapi.mlb.com/api/v1/schedule/games/?sportId=1&startDate={start_date}&endDate={end_date}'
     #should retry 3x by default
     res = http.request('GET', url)
+    if res:
+        print("data retrieved!")
     body = res.data.decode("utf-8")
     if res.status != 200:
         print(f"error getting today's game data; status: {res.status}; response: {body}")
@@ -21,6 +23,7 @@ def getGames():
 
 
 def sendMessage(recipients, message):
+    print("sending message")
     sender_email = str(os.getenv('EMAIL'))
     email_password = str(os.getenv('PASS'))
     auth = (sender_email, email_password)
@@ -58,6 +61,8 @@ def main():
             message = f'Subject: Warning! Braves Home Game Today\n\nGametime @ {edt_gametime} EDT -__-\n\n' + \
             f'Email was sent as fallback due to the error below:\nFailed to send sms; error: {e}'
             sendMessage(recipients, message)
+    else:
+        print("no game today")
 
 if __name__ == '__main__':
     main()
