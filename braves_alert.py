@@ -12,14 +12,18 @@ def getGames():
     url = f'https://statsapi.mlb.com/api/v1/schedule/games/?sportId=1&startDate={start_date}&endDate={end_date}'
     #should retry 3x by default
     res = http.request('GET', url)
-    if res:
-        print("data retrieved!")
     body = res.data.decode("utf-8")
     if res.status != 200:
         print(f"error getting today's game data; status: {res.status}; response: {body}")
         return []
-    else:
-       return json.loads(body)['dates'][0]['games'] 
+    
+    print("data retrieved")
+    dates = json.loads(body)['dates']
+    if len(dates) == 0:
+        # no mlb games at all
+        return []
+    
+    return dates[0]['games'] 
 
 
 def sendMessage(recipients, message):
@@ -58,7 +62,7 @@ def main():
         sendMessage(recipients, message)
     except Exception as e:
         #fallback to just emails
-        print(f"message failed; falling back; {e}")
+        print(f"message failed; falling back to email; {e}")
         cc = str(os.getenv('CC_EMAILS')).split(",")
         recipients = cc
         message = f'Subject: Warning! Braves Home Game Today\n\nGametime @ {edt_gametime} EDT -__-\n\n' + \
